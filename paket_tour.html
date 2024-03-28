@@ -1,0 +1,332 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TourSun Labuan Bajo</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #c9cc77;
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            background-color: #9b92a1;
+            color: #fff;
+            padding: 20px 0;
+            text-align: center;
+        }
+        nav {
+            background-color: #39260d;
+            color: #fff;
+            text-align: center;
+            padding: 10px 0;
+        }
+        nav a {
+            color: #fff;
+            text-decoration: none;
+            margin: 0 10px;
+        }
+        nav a:hover {
+            text-decoration: underline;
+        }
+        #about {
+            padding: 20px;
+            text-align: center;
+        }
+        #packages {
+            text-align: center;
+        }
+        ul {
+            list-style-type: none;
+            padding: 0;
+            margin: 0;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+        }
+        li {
+            width: 30%; /* Membuat item berukuran 30% dari lebar container */
+            margin: 10px;
+            text-align: center;
+        }
+        img {
+            width: 100%;
+            height: auto; 
+            max-width: 100%; 
+            max-height: 300px; 
+            margin: 0 auto 20px;
+            display: block;
+        }
+        footer {
+            background-color: #333;
+            color: #fff;
+            text-align: center;
+            padding: 10px 0;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+        .container {
+            width: 80%;
+            margin: 0 auto;
+            text-align: center;
+        }
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 20px;
+        }
+        th, td {
+            padding: 10px;
+            border-bottom: 1px solid #ddd;
+        }
+        th {
+            background-color: #f2f2f2;
+
+        }
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 20px;
+        }
+        th, td {
+            padding: 10px;
+            border-bottom: 1px solid #ddd;
+        }
+        th {
+            background-color: #f2f2f2;
+        }
+        .Fasilitas {
+        width: 30%;
+        margin: 10px auto;
+        }
+
+        .numbered-list {
+        counter-reset: list-item;
+        padding: 0;
+        
+        }
+
+        .numbered-list li {
+        counter-increment: list-item;
+        margin-bottom: 10px;
+        list-style-type: none;
+        }
+
+        .numbered-list li:before {
+        content: counter(list-item) ". ";
+        font-weight: bold;
+        margin-right: 5px;
+        }
+        .audio-player {
+            max-width: 300px;
+            margin: 50px auto;
+        }
+
+        audio {
+            width: 100%;
+            display: block;
+        }
+
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Tour Sun Labuan Bajo</h1>
+    </header>
+    <nav>
+        <a href="#about"> About Labuan Bajo</a>
+        <a href="#packages">Tour Packages</a>
+        <a href="#cinematic">Cinematic Tour</a>
+        <a href="#contact">Contact Us</a>
+        
+    </nav>
+    <section id="about">
+        <h2>Wisata Labuan Bajo</h2>
+        <img src="LabuanBajo.jpeg" alt="Labuan Bajo" style="width: 100%; max-width: 300px; display: block; margin: 0 auto 50px;">
+            <p>Ada apa di Nusa Tenggara Timur? Salah satu provinsi di ujung timur Indonesia ini menyimpan berbagai tempat wisata yang sangat menarik untuk kita jelajahi, yang paling indah adalah wisata Labuan Bajo dan wisata Pulau Komodo.
+                Bayangkan berangkat ke Taman Nasional Komodo melalui Labuan Bajo, kemudian berlayar ke Pulau Komodo, Pulau Rinca, Pulau Padar, dan banyak pulau kecil di sekitarnya. Hanya dengan sewa Kapal Labuan Bajo agar Anda dapat jelajahi tempat wisata populer di kalangan selebritis, dan wisatawan luar serta domestik.</p>
+            <p>Jelajahi Taman Nasional Komodo dengan Sewa Kapal Labuan Bajo.
+                Apakah wisata ke Labuan Bajo mahal? Tentu tidak! Harga sewa perahu di Labuan Bajo dari TourSun Labuan Bajo bervariasi berdasarkan jenis kapal yang ingin Anda sewa. Anda bisa memilih berbagai jenis kapal mulai dari Yatch, Kapal Phinisi, Kapal Standart, Speed Boat, hingga memudahkan Anda pergi bersama teman, keluarga, atau kolega Anda untuk menemukan kemegahan Taman Nasional Komodo.
+                TourSun Labuan Bajo akan memberi saran pilihan destinasi terbaik sesuai dengan pengalaman bertahun-tahun kami menghandle trip menyusuri wisata sailing komodo dengan menyesuaikan paket tour yang anda pilih, namun semuanya pasti mencakup menjelajahi pulau-pulau yang instagramable di Labuan Bajo.</p>
+    </section>
+    <section id="cinematic" style="display: flex; justify-content: center; align-items: center; height: 100vh;">
+        <div>
+            <h3 style="text-align: center;">Cinematic Tour</h3>
+            <div style="text-align: center;">
+                <iframe width="600" height="450" src="Toursun.mp4" frameborder="50px" allowfullscreen style="max-width: 100%;"></iframe>
+            </div>
+        </div>
+    </section>
+    <section>
+        <div class="container">
+            <h2>Biaya Paket TourSun</h2>
+            <table>
+                <tr>
+                    <th>Paket Trip</th>
+                    <th>Biaya (USD)</th>
+                </tr>
+                <tr>
+                    <td>Paket Silver (1-3 orang)</td>
+                    <td>Rp 4.500.000</td>
+                </tr>
+                <tr class="highlight">
+                    <td>Paket Gold(4-7 orang)</td>
+                    <td>Rp 11.500.000</td>
+                </tr>
+                <tr>
+                    <td>Paket Platinum (8-12 orang) </td>
+                    <td>Rp, 22.200.000</td>
+                </tr>
+            </table>
+        </div>    
+    </section>
+    <section id="packages">
+        <h2>Tour Packages</h2>
+        <ul>
+            <li>
+                <p>KOMODO ISLAND TOUR</p>
+                <img src="pulau komodo.jpeg" alt="Pulau Komodo">
+            </li>
+            <li>
+                <p>SNORKELING ADVENTURE</p>
+                <img src="Flores Island.jpeg" alt="Flores Island">
+            </li>
+            <li>
+                <p>SEWA KAPAL PINISI</p>
+                <img src="kapal pinisi.jpeg" alt="Kapal Pinisi">
+            </li>
+            <li>
+                <p>LABUAN BAJO</p>
+                <img src="LabuanBajo1.jpeg" alt="Labuan Bajo">
+            </li>
+            <li>
+                <p>PULAU KALONG</p>
+                <img src="Kalong Island, Indonesia.jpeg" alt="Kalong Island">
+            </li>
+            <li>
+                <p>RINCA ISLAND TREKKING</p>
+                <img src="pulau rinca.jpeg" alt="Pulau rinca">
+            </li>
+            <li>
+                <p>PINK BEACH</p>
+                <img src="Pink Beach.jpeg" alt="Pink Beach">
+            </li>
+            <li>
+                <p>SUNSET BEACH</p>
+                <img src="Sunset beach.jpg" alt="Sunset Beach">
+            </li>
+            <li>
+                <p>GOA RANGKO</p>
+                <img src="Goa rangko.jpeg" alt="Goa rangko">
+            </li>
+        </ul>
+    </section>
+    <section>
+        <div class="container">
+            <h1>Jadwal Tour Kapal Pinisi</h1>
+            <table>
+                <tr>
+                    <th>Tanggal</th>
+                    <th>Rute</th>
+                    <th>Waktu Berangkat</th>
+                    <th>Waktu Tiba</th>
+                </tr>
+                <tr>
+                    <td>3 April 2024</td>
+                    <td>Labuan Bajo - Pulau Padar - Pink Beach - Pulau Komodo</td>
+                    <td>08:00</td>
+                    <td>17:00</td>
+                </tr>
+                <tr>
+                    <td>5 April 2024</td>
+                    <td>Labuan Bajo - Pulau Rinca - Pulau Kalong</td>
+                    <td>09:30</td>
+                    <td>16:00</td>
+                </tr>
+                <tr>
+                    <td>7 April 2024</td>
+                    <td>Labuan Bajo - Pulau Kelor - Pulau Kanawa - Gili Lawa</td>
+                    <td>07:45</td>
+                    <td>18:00</td>
+                </tr>
+            </table>
+        </div>
+    </section>
+
+    <section>
+        <div class="Fasilitas">
+            <h2>Fasilitas Open Trip Labuan Bajo</h2>
+            <table>
+                <tr>
+                    <th>No.</th>
+                    <th>Fasilitas</th>
+                </tr>
+                <tr>
+                    <td>1.</td>
+                    <td>Nginap Di Kapal Phinisi</td>
+                </tr>
+                <tr>
+                    <td>2.</td>
+                    <td>Makanan dan Minuman</td>
+                </tr>
+                <tr>
+                    <td>3.</td>
+                    <td>Transportasi Antar-jemput</td>
+                </tr>
+                <tr>
+                    <td>4.</td>
+                    <td>Guid Lokal Berlisensi HPI</td>
+                </tr>
+                <tr>
+                    <td>5.</td>
+                    <td>Perjalanan Wisata yang Terjadwal</td>
+                </tr>
+                <tr>
+                    <td>6.</td>
+                    <td>Perlengkapan Snorkeling</td>
+                </tr>
+                <tr>
+                    <td>7.</td>
+                    <td>Tiket Masuk Destinasi Wisata</td>
+                </tr>
+                <tr>
+                    <td>8.</td>
+                    <td>Dokumenstasi (Drone,Kamera)</td>
+                </tr>
+            </table>
+        </div>
+    </section>
+    <section>
+        <div class="audio-player">
+            <h2>Lagu Khas Labuan Bajo</h2>
+            <table>
+                <tr>
+                    <th>Nama Lagu</th>
+                    <td>Labuan Bajo Kurindu - Ivan Nestorman</td>
+                </tr>
+                <tr>
+                    <th>Audio</th>
+                    <td>
+                        <audio controls>
+                            <source src="Labuan+Bajo+Kurindu+-+Ivan+Nestorman.mp3" type="audio/mpeg">
+                            Your browser does not support the audio element.
+                        </audio>
+                    </td>
+                </tr>
+            </table>
+        </div>  
+    </section>
+    <section id="contact">
+        <h2>Contact Us</h2>
+        <p>Email: Toursun.LabuanBajo@gmail.com</p>
+        <p>Phone: +62 877 88008526</p>
+        <p>Address: Jalan Soekarno-Hatta, Labuan Bajo, Indonesia</p>
+    </section>
+    <footer>
+        &copy; 2024 Tour Labuan Bajo
+    </footer>
+</body>
+</html>
